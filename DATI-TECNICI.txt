@@ -1,0 +1,9 @@
+Autore: AHG
+Versione: 0.2.0
+ID: bgagepnkbaclnmmpefdalmhblpjnfofp
+Host: it.ahg.appunti
+Origine: chrome-extension://bgagepnkbaclnmmpefdalmhblpjnfofp/
+Azione: clipboard
+Permessi: nativeMessaging, storage
+Icona senza popup; esecuzione diretta con action.onClicked.
+Guida disponibile da Opzioni.

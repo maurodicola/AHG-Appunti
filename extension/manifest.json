@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Appunti · AHG",
+  "author": "AHG",
+  "version": "0.2.0",
+  "description": "Apre Appunti di Windows con un clic. Autore: AHG. Richiede il componente Windows incluso.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEL41W2wpLsA0xQJ8OpqVgtcMKPc/1bCezAeq89NG/zffHiGvwra3QU3GaWMLTQTOlvM25wABbdZckuwAOshGNPILASrCUAf5ptH2xBN04s6ZQeHbZBEQmgELKb3mheRAmp3RwdqGGxn4TCodPlsApK3Hs0M+NwT7KeEzmbHkvMadhhJawtns9xn1OjuMwQhZznJdU+gPBn8b3WKCTWAXKDpASZlzh6WdzcZsnKXMX0btx0rTRPs1Sn0r4M497YUnGEfhcAQjreJ2rLY2bIKdLaN+ZWfstZrlPYVs61BlHNjWS3rwW0/OnNDqufNtFFHYOTf36aDCRdM8kIY/LDzNwIDAQAB",
+  "permissions": [
+    "nativeMessaging",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Appunti · AHG"
+  },
+  "options_page": "guida.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
